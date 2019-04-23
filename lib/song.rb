@@ -23,7 +23,7 @@ class Song
   
   def self.artists
     @@artists
-    #binding.pry
+    binding.pry
   end
   
   def self.genres

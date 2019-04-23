@@ -22,8 +22,9 @@ class Song
   end
   
   def self.artists
-    @@artists
     binding.pry
+    @@artists
+    
   end
   
   def self.genres

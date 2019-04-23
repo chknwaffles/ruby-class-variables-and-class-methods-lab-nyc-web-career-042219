@@ -50,5 +50,6 @@ class Song
         @@artist_count[e] += 1
       end
     end
+    @@artist_count
   end
 end

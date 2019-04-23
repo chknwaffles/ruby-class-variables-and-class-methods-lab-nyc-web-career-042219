@@ -37,7 +37,7 @@ class Song
       else
         @@genre_count[e] += 1
       end
-      binding.pry
+      #binding.pry
     end
     @@genre_count
   end

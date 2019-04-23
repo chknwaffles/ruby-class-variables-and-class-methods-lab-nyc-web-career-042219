@@ -14,7 +14,7 @@ class Song
     
     @@count += 1
     @@artists << artist unless @@artists.include?(artist)
-    binding.pry
+    #binding.pry
     @@genres << genre
   end
   
